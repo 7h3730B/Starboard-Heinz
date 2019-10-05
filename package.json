@@ -1,0 +1,22 @@
+{
+  "name": "starboard-heinz",
+  "version": "1.0.0",
+  "description": "A Starboard Bot for our Guild",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7h3730B/Starboard-Heinz.git"
+  },
+  "author": "7h3730B",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/7h3730B/Starboard-Heinz/issues"
+  },
+  "homepage": "https://github.com/7h3730B/Starboard-Heinz#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
