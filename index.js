@@ -21,6 +21,6 @@ client.on('ready', () => Logger.info(client, 'Bereit'))
 	.on('disconnect', () => Logger.warn(client, 'Verbindung verloren'))
 	.on('reconnect', () => Logger.info(client, 'Versuche neu zu verbinden'))
 	.on('error', err => Logger.error(client, err))
-	.on('warn', info => Logger.warn(client, info));
+	.on('warn', warn => Logger.warn(client, warn));
 
 client.login(Conf.token);
