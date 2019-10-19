@@ -1,5 +1,6 @@
 const { WebhookClient, RichEmbed } = require('discord.js');
-const LogHook = new WebhookClient('634823314984140800', 'HlwlTyyJ1vNaQaGF55WAPYnQ-hj7t-MfsCf963UWE4RwBnMU7rNOTAhkzcdkE21--VAm')
+const { id, token2 } = require('../config.json');
+const LogHook = new WebhookClient(id, token2);
 
 class Logger {
 

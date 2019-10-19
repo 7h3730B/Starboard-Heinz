@@ -3,10 +3,6 @@ const Conf = require('./config.json');
 const Loggerc = require('./utils/Logger.js');
 const mongoose = require('mongoose');
 
-// Static Variables
-const MAX_AGE = 7;
-const REQUIRED = 3;
-
 // db stuff
 mongoose.connect('mongodb://localhost/Heinz', {useNewUrlParser: true});
 let db = mongoose.connection;
